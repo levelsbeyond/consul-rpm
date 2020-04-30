@@ -28,6 +28,6 @@ services:
             - TEMPLATEVER
         build:
             context: .
-            dockerfile: ./docker/centos7/Dockerfile
+            dockerfile: ./docker/amzn2018/Dockerfile
         volumes:
             - ../amzn2018:/RPMS
